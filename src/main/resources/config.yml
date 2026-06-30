@@ -1,0 +1,20 @@
+# HirayaDrop configuration
+#
+# By default, every player has redirected drops enabled.
+# Players can disable it for themselves with /hirayadrop off.
+
+prefix:
+  enabled: true
+  text: "&8[&9HirayaDrop&8] "
+
+theme:
+  primary: "#3B82F6"
+  secondary: "#FFFFFF"
+  accent: "#808080"
+
+messages:
+  usage: "&7Usage: &f/hirayadrop <on|off>"
+  enabled: "{primary}Block drops will now appear in front of you."
+  disabled: "{accent}Block drops will now fall normally."
+  already-enabled: "{accent}Already on."
+  already-disabled: "{accent}Already off."

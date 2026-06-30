@@ -1,0 +1,12 @@
+name: HirayaDrop
+version: 1.0.0
+main: com.dreiwhite.dev.hirayadrop.HirayaDrop
+api-version: "26.1"
+author: dreiwhite
+website: https://dev.dreiwhite.com
+description: Redirects block drops to land in front of the player.
+
+commands:
+  hirayadrop:
+    description: Toggle whether block drops land in front of you.
+    usage: /hirayadrop <on|off>
