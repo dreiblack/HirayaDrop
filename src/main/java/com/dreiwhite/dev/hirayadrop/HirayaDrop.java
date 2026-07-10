@@ -82,7 +82,7 @@ public class HirayaDrop extends JavaPlugin implements Listener, TabCompleter {
         }
         return sb.toString();
     }
-
+// help me
     private String message(String key, String fallback) {
         String raw = getConfig().getString("messages." + key, fallback);
         return prefix + colorize(raw)
